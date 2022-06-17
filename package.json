@@ -13,6 +13,7 @@
     "@paypal/react-paypal-js": "^7.6.0",
     "@reduxjs/toolkit": "^1.8.1",
     "@stripe/react-stripe-js": "^1.7.2",
+    "@stripe/stripe-js": "^1.32.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
