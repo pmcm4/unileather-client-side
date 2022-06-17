@@ -66,7 +66,7 @@ const About = () => {
     <Image src="https://res.cloudinary.com/dgb2lnz2i/image/upload/v1650439752/278051315_523121645882771_725446952752107284_n_pr2byb.jpg"   width="100%"
     />
       <div class="container">
-        <h2 class="Name">Christian John C. Perocha</h2>
+        <h2 class="Name">Christian John C. Parocha</h2>
         <p class="title">Developer</p>
         <p class="desc">Hi! I'm Christian John, one of the developers for this project. If you have any questions or concerns, feel free to contact us! </p>
         <p class="desc">cjparocha18@gmail.com</p>
