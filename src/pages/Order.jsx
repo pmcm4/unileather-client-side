@@ -14,6 +14,18 @@ import Footer from "../components/Footer"
 const Container = styled.div`
 
 `
+const Button = styled.button`
+  padding: 10px;
+  position: relative;
+  top: 10px;
+  left: 94%;
+  background-color: #59302D;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: none;
+`;
 const OrderContainer = styled.div`
   flex: 4;
   max-width: 100vw;
@@ -187,6 +199,7 @@ export default function Order() {
               <RowItem>{t(`${status}`)}</RowItem>
             )}
           </ProductRow>
+          {data.status = "dispatched" && <Button onClick={myFunction}> Request Refund</Button>}
         </ProductContainer>
         <AddressContainer>
           <LeftTitle>{t("BILLING ADDRESS")}</LeftTitle>
@@ -206,9 +219,13 @@ export default function Order() {
               {phone ? <AddressRow>{phone}</AddressRow> : null}
             </>
           )}
+          
         </AddressContainer>
       </OrderContainer>
       <Footer/>
     </Container>
   )
+}
+function myFunction() {
+  alert("Refund request Sent!");
 }
