@@ -26,6 +26,10 @@ height: 90vh;
 object-fit: cover;
 ${mobile({ height: "40vh" })}
 `
+
+const Image1 = styled.img`
+width:130px;
+`;
 const InfoContainer = styled.div`
 flex:1;
 padding: 0px 5px;
@@ -201,7 +205,9 @@ const location = useLocation();
                         </Filter>
                         
                     </FilterContainer>
+                    <Image1 src={"https://res.cloudinary.com/dgb2lnz2i/image/upload/v1658204631/1920px-5_stars.svg_epoyqx.png"}></Image1>
                     <AddContainer>
+                    
                         <AmountContainer>
                             <Remove onClick={()=>handleQuantity("dec")}/>
                             <Amount>{quantity}</Amount>
