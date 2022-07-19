@@ -33,6 +33,9 @@ const ProductRow = styled.div`
   justify-content: space-between;
   border-bottom: 1px solid #e2dcdc;
 `
+const Button = styled.btn`
+
+`
 const RowItemContainer = styled.div`
   display: flex;
   align-items: center;
@@ -205,6 +208,9 @@ export default function Order() {
               {phone ? <AddressRow>{phone}</AddressRow> : null}
             </>
           )}
+          <Button>
+            Refund
+          </Button>
         </AddressContainer>
       </OrderContainer>
       <Footer/>
